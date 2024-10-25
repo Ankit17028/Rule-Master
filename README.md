@@ -25,19 +25,21 @@ The **Rule Engine Application** is a backend-driven rule engine built using **Ja
   ```bash
   mvn -version
   ```
-MySQL Database: Set up with user credentials for database access.
-MySQL Driver: Make sure to include the MySQL driver in your dependencies.
-🚀 Features
-Create Rules: Allows users to create new rules by specifying conditions and logical operators.
-Combine Rules: Combines multiple rules and visualizes the combined rule AST.
-Evaluate Rules: Evaluates rules based on input data and returns results.
-REST API: The backend provides REST endpoints to manage rules and evaluate them.
-MySQL Database: Configured with MySQL to store rule data persistently.
-📁 Project Structure
-Backend (Spring Boot with MySQL)
-The Spring Boot application handles rule creation, evaluation, and combination logic. Configured with MySQL for persistent data storage, the backend runs on port 8080.
+- **MySQL Database**: Set up with user credentials for database access.
+- **MySQL Driver**: Make sure to include the MySQL driver in your dependencies.
+
+## 🚀 Features
+**Create Rules**: Allows users to create new rules by specifying conditions and logical operators.
+**Combine Rules**: Combines multiple rules and visualizes the combined rule AST.
+**Evaluate Rules**: Evaluates rules based on input data and returns results.
+**REST API**: The backend provides REST endpoints to manage rules and evaluate them.
+**MySQL Database**: Configured with MySQL to store rule data persistently.
+
+## 📁 Project Structure
+**Backend (Spring Boot with MySQL)**
+- The Spring Boot application handles rule creation, evaluation, and combination logic. Configured with MySQL for persistent data storage, the backend runs on port 8080.
 
 Endpoints:
-/create (POST): Creates a new rule.
-/combine (POST): Combines two or more rules.
-/evaluate (POST): Evaluates a rule with input data.
+- /create (POST): Creates a new rule.
+- /combine (POST): Combines two or more rules.
+- /evaluate (POST): Evaluates a rule with input data.
