@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image: url('https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA==&ixlib=rb-4.0.3&auto=format&fit=crop&w=3000&q=60');
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; /* Remove this line */
+  justify-content: flex-start; /* Align items to the top */
+  
+  min-height: 100vh; /* Ensure it takes the full viewport height */
+  color: white;
+  padding-top: 60px; /* Space for the fixed navbar */
+}
+
+nav {
+  background-color: white;
+  position: fixed; /* Keep navbar fixed at the top */
+  top: 0; /* Position at the top */
+  left: 0; /* Align to the left */
+  width: 100%; /* Full width */
+  padding: 10px 0; /* Padding for navbar */
+  z-index: 1000; /* Ensure it’s on top of other elements */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: center; /* Center the links horizontally */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+nav li {
+  margin: 0 15px; /* Space between each link */
+}
+
+nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Text color */
+  font-size: 18px; /* Font size */
+}
+
+nav a:hover {
+  color: #61dafb; /* Change color on hover */
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
