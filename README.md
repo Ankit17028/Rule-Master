@@ -19,10 +19,12 @@ The **Rule Engine Application** is a backend-driven rule engine built using **Ja
 - **Java 17+**: Ensure Java is installed by running:
   ```bash
   java -version
+  ```
+  
   Maven: Ensure Maven is installed by running:
-bash
-Copy code
-mvn -version
+  ```bash
+  mvn -version
+  ```
 MySQL Database: Set up with user credentials for database access.
 MySQL Driver: Make sure to include the MySQL driver in your dependencies.
 🚀 Features
