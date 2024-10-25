@@ -120,5 +120,5 @@ npm start
 Once both backend and frontend are running:
 
 Frontend: Visit http://localhost:3000 to access the web UI.
-Backend API: The backend API is available at http://localhost:8080.
+Backend API: The backend API is available at http://localhost:8080/rules/api.
 
