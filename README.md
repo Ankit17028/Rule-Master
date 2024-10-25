@@ -72,8 +72,8 @@ Maven: Ensure Maven is installed by running:
 ## Steps
 1. **Clone the Repository**
   ```bash
-  git clone https://github.com/1kranthi/rule-engine-ast.git
-  cd rule-engine-ast
+  git clone https://github.com/Ankit17028/Rule-Master.git
+  cd rule-engine-ast-Backend
   ```
 
 2. **Backend Setup (In IntelliJ IDEA)**
@@ -94,6 +94,10 @@ Build and Run the Backend: Run the following commands in the terminal to build a
 
 ```bash
 ./mvnw clean install
+```
+After Installing mvn run the Application
+```bash
+./mvnw spring-boot:run
 ```
 
 **Run the backend application by selecting the Application class and choosing Run. The backend server should be accessible at http://localhost:8080.**
